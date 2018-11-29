@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="row text-center">
+    <div class="in-form">
+      <div class="form-g">
+        <label>Hours</label>
+        <br>
+        <input placeholder="00" id="hours" class="form-control">
+      </div>
+      <div class="form-g">
+        <label>Minutes</label>
+        <br>
+        <input placeholder="00" id="minutes" class="form-control">
+      </div>
+      <div class="form-g">
+        <label>Seconds</label>
+        <br>
+        <input placeholder="00" id="seconds" class="form-control">
+      </div>
+    </div>
+    <button class="btn-lg btn-start" id="start">Start</button>
+  </div>
+  
+  <div class="row text-center justify-content-between">
+    <div class="col-sm-4">
+      <canvas id="hour_count" class="counter" height="300" width="300"></canvas>
+    </div>
+    <div class="col-sm-4">
+      <canvas id="min_count" class="counter" height="300" width="300"></canvas>
+    </div>
+    <div class="col-sm-4">
+      <canvas id="sec_count" class="counter" height="300" width="300"></canvas>
+    </div>
+  </div>
+
+  <!-- <div class="row"> -->
+      <div id="show_hours" class="show"></div>
+      <div id="show_min" class="show"></div>
+      <div id="show_sec" class="show"></div>
+    <!-- </div> -->
+</div>
+
+
+
+
+
+
+  <!-- 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+  </body>
+</html>

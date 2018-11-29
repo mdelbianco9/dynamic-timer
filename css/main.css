@@ -1,0 +1,98 @@
+
+html, body {
+    height: 100%;
+    background: linear-gradient(#3f3f3f, #800060);
+    background-repeat: no-repeat;
+}
+
+
+.container{
+  /*margin: 100px auto;*/
+  background-color: transparent;
+  height: 100%;
+  /*border: 1px solid white;*/
+}
+
+.in-form{
+	margin: 0 auto;
+	width: 50%;
+}
+
+.form-control {
+	text-align: center;
+	display: block;
+	font-size: 20px;
+}
+
+label{
+	display: inline-block;
+	color: white;
+}
+
+.form-g{
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	padding: 2% 2%;
+}
+
+.btn-start{
+	width: 30%;
+	background-color: transparent;
+	color: #f2f2f2;
+	border: 1px solid white;
+	transition: all .8s ease;
+	outline: none;
+}
+
+.btn-start:hover{
+	color: white;
+	border-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
+        border-image-slice: 1;
+        border-width: 1px;
+        font-size: 20px;
+}
+
+.btn-start:active {
+  background-color: #d53a9d;
+  background-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.row{
+	/*margin-top:20px;*/
+}
+
+
+
+.counter{
+  /*position: absolute;*/
+  margin-top: 2%;
+  border: 1px solid white;
+}
+
+
+.show{
+	height:50px;
+	width: 50px;
+	border: 1px solid white;
+	display: inline-block!important;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
