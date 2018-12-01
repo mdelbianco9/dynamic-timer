@@ -48,9 +48,9 @@ label{
 .btn-start:hover{
 	color: white;
 	border-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
-        border-image-slice: 1;
-        border-width: 1px;
-        font-size: 20px;
+    border-image-slice: 1;
+    border-width: 1px;
+    transform: scale(1.03);
 }
 
 .btn-start:active {
@@ -58,6 +58,10 @@ label{
   background-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
   background-size: 100%;
   transition: background 0s;
+}
+
+.btn-lg {
+	border-radius: 0px;
 }
 
 .row{
@@ -69,14 +73,14 @@ label{
 .counter{
   /*position: absolute;*/
   margin-top: 2%;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 
 .show{
 	height:50px;
 	width: 50px;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	display: inline-block!important;
 	color: white;
 	text-align: center;
